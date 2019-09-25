@@ -85,6 +85,11 @@ h5 {
     font-style: italic;
 }
 
+.container-introduction {
+    /* CLEARFIX HACK */
+    overflow: auto;
+}
+
 .container-experience h3, .container-experience h4, .container-experience h5 {
     margin: 5px 0;
 }
@@ -93,9 +98,11 @@ h5 {
     font-size: 14px;
 }
 
-
-
 img {
     max-width: 600px;
-    width: 100%;
+    width: 33%;
+    float: right;
+
+    /* To fix alignment */
+    margin-top: 20px;
 }
