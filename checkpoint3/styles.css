@@ -1,0 +1,106 @@
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 30px 0;
+
+    /*
+    font-family: 'Noto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+    */
+}
+
+#name {
+    border-bottom: 1px solid #33485e;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#nav-links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-links ul li {
+    display: inline-block;
+}
+
+#nav-links ul li::after {
+    content: ' | ';
+}
+
+#nav-links ul li:last-child::after {
+    content: '';
+}
+
+.email {
+    text-align: center;
+}
+
+.personal-title {
+    text-align: center;
+    color: #6a747e;
+    font-style: italic;
+}
+
+.main-content {
+    /*  */
+}
+
+.highlight {
+    background-color: #33485e;
+    padding: 3px 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.introduction {
+    line-height: 1.6;
+}
+
+h2 {
+    background-color: #33485e;
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container-introduction {
+    /* CLEARFIX HACK */
+    overflow: auto;
+}
+
+.container-experience h3, .container-experience h4, .container-experience h5 {
+    margin: 5px 0;
+}
+
+.container-experience p {
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
